@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Display</string>
+			<key>FooterText</key>
+			<string>The app may need to be restarted for accent color changes to take effect everywhere.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Accent Color</string>
+			<key>Key</key>
+			<string>accent_color</string>
+			<key>DefaultValue</key>
+			<string>blue</string>
+			<key>Values</key>
+			<array>
+				<string>red</string>
+				<string>orange</string>
+				<string>yellow</string>
+				<string>green</string>
+				<string>blue</string>
+				<string>indigo</string>
+				<string>pink</string>
+				<string>purple</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Red</string>
+				<string>Orange</string>
+				<string>Yellow</string>
+				<string>Green</string>
+				<string>Blue (Default)</string>
+				<string>Indigo</string>
+				<string>Pink</string>
+				<string>Purple</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Playback</string>
+			<key>FooterText</key>
+			<string>Automatically play files when they are opened.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Enable Auto-Play</string>
+			<key>Key</key>
+			<string>autoplay_preference</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Reverb</string>
+			<key>FooterText</key>
+			<string>Changes will take effect immediately.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Enable Reverb</string>
+			<key>Key</key>
+			<string>reverb_preference</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Reverb Preset</string>
+			<key>Key</key>
+			<string>reverb_preset_preference</string>
+			<key>DefaultValue</key>
+			<integer>3</integer>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+				<integer>7</integer>
+				<integer>8</integer>
+				<integer>9</integer>
+				<integer>10</integer>
+				<integer>11</integer>
+				<integer>12</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Small Room</string>
+				<string>Medium Room</string>
+				<string>Large Room</string>
+				<string>Medium Hall (Default)</string>
+				<string>Large Hall</string>
+				<string>Plate</string>
+				<string>Medium Chamber</string>
+				<string>Large Chamber</string>
+				<string>Cathedral</string>
+				<string>Large Room 2</string>
+				<string>Medium Hall 2</string>
+				<string>Medium Hall 3</string>
+				<string>Large Hall 2</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Wet-Dry Mix</string>
+			<key>Key</key>
+			<string>reverb_wetDryMix_preference</string>
+			<key>DefaultValue</key>
+			<integer>40</integer>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>10</integer>
+				<integer>20</integer>
+				<integer>30</integer>
+				<integer>40</integer>
+				<integer>50</integer>
+				<integer>60</integer>
+				<integer>70</integer>
+				<integer>80</integer>
+				<integer>90</integer>
+				<integer>100</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>0% (all dry)</string>
+				<string>10%</string>
+				<string>20%</string>
+				<string>30%</string>
+				<string>40% (Default)</string>
+				<string>50%</string>
+				<string>60%</string>
+				<string>70%</string>
+				<string>80%</string>
+				<string>90%</string>
+				<string>100% (all wet)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>MIDI Devices</string>
+			<key>FooterText</key>
+			<string>Choose “Control Change” if your MIDI device doesn’t support the Master Volume Universal System Exclusive (SysEx) message.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Control Volume With</string>
+			<key>Key</key>
+			<string>VolumeControlMethod</string>
+			<key>DefaultValue</key>
+			<string>SystemExclusive</string>
+			<key>Values</key>
+			<array>
+				<string>SystemExclusive</string>
+				<string>ControlChange</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>System Exclusive (Default)</string>
+				<string>Control Change</string>
+			</array>
+			<key>ShortTitles</key>
+			<array>
+				<string>System Exclusive</string>
+				<string>Control Change</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>IASKCustomViewSpecifier</string>
+			<key>Key</key>
+			<string>NSXInAppVersionCell</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>https://apps.nitinseshadri.com/midiplayer/support.html</string>
+			<key>File</key>
+			<string>https://apps.nitinseshadri.com/midiplayer/support.html</string>
+			<key>Title</key>
+			<string>App Support</string>
+			<key>Type</key>
+			<string>IASKOpenURLSpecifier</string>
+			<key>IASKTextAlignment</key>
+			<string>IASKUITextAlignmentCenter</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>https://apps.apple.com/app/id1514225088?action=write-review</string>
+			<key>File</key>
+			<string>https://apps.apple.com/app/id1514225088?action=write-review</string>
+			<key>Title</key>
+			<string>Write a Review</string>
+			<key>Type</key>
+			<string>IASKOpenURLSpecifier</string>
+			<key>IASKTextAlignment</key>
+			<string>IASKUITextAlignmentCenter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

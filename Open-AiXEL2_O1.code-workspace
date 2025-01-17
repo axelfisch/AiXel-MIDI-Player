@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "AiXel",
+			"path": "../../../AiXEL2/AiXel"
+		},
+		{
+			"path": "../Aixel2_o1"
+		}
+	],
+	"settings": {}
+}
