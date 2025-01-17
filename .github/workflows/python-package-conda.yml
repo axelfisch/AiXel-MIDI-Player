@@ -1,6 +1,7 @@
 name: Python Package using Conda
 
 on: [push]
+git clone https://github.com/cuthbertLab/music21.git
 
 jobs:
   build-linux:
