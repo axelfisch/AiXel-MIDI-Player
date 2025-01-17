@@ -1,0 +1,28 @@
+Last login: Wed Jan 15 00:54:26 on ttys000
+axelfisch@Mac-mini-de-Axel ~ % /Users/axelfisch/Desktop/AiXEL-JazzOrchestrator-2025/jazz_chord_dictionary.json /Users/axelfisch/Desktop/AiXEL-JazzOrchestrator-2025/pip\ install\ mido.py /Users/axelfisch/Desktop/AiXEL-JazzOrchestrator-2025/Zshrc.py
+zsh: permission denied: /Users/axelfisch/Desktop/AiXEL-JazzOrchestrator-2025/jazz_chord_dictionary.json
+axelfisch@Mac-mini-de-Axel ~ % /Users/axelfisch/Desktop/AiXEL-JazzOrchestrator-2025/pip\ install\ mido.py
+zsh: permission denied: /Users/axelfisch/Desktop/AiXEL-JazzOrchestrator-2025/pip install mido.py
+axelfisch@Mac-mini-de-Axel ~ % >....                                            
+- Basse : C (tonique).
+- Batterie : “intro 1 pattern”.
+
+Mesure 2 :
+- Accord : Dmin7(b5).
+- Basse : D (tonique).
+- Batterie : “couplet 1 pattern”.
+
+---
+
+## 8. Perspectives pour ton AiXEL-Jazz-Orchestrator
+
+### Objectifs :
+1. **Reconnaissance automatique** des progressions harmoniques et substitutions. 
+2. **Génération de grilles et voicings** adaptés à ton style.
+3. **Orchestration complète** avec choix rythmiques et mélodiques.
+4. **Interactions dynamiques** pour affiner chaque composition.
+
+Avec ces bases, ton orchestrateur deviendra une extension fidèle de ton univers musical.
+
+
+quote> 
